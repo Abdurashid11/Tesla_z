@@ -1,0 +1,651 @@
+@import url('https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quantico:ital,wght@0,400;0,700;1,400;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: "Poppins", sans-serif;
+}
+span{
+    color: #00EEFF;
+}
+body{
+    background-color: #1F242D;
+}
+.header{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+.nav{
+    max-width: 100%;
+    height: 78px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav ul{
+    display: flex;
+    align-items: center;
+    gap: 42px;
+    color: white;
+}
+.nav ul li:hover{
+    color: #00EEFF;
+}
+.contaeiner{
+    margin: 0 auto;
+    padding: 0 129px;
+}
+.nav-icon{
+    display: none;
+}
+section{
+    color: white;
+    margin: 50px 0px 0px 0px;
+}
+section button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 176.59px;
+    height: 45px;
+    border-radius: 40px;
+    background-color: #00EEFF;
+    border: 1px solid #00EEFF;
+    box-shadow: 0px 0px 10px #00EEFF;
+    font-size: 16px;
+    color: #323946;
+    font-weight: 600;
+}
+.h1 h3{
+    font-size: 32px;
+}
+.h1 h1{
+    font-size: 56px;
+}
+.h1 h2{
+    font-size: 32px;
+    padding: 0px 0px 23px 0px;
+}
+.h1 p{
+    font-size: 16px;
+}
+.img3{
+    padding: 31px 17px 30px 0px;
+}
+.big{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.logo{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.section2{
+    max-width: 1440px;
+    height: 749px;
+    margin: 0 auto;
+}
+.h22{
+    width: 290.98px;
+    height: 63px;
+    margin: 0 auto;
+    font-size: 30px;
+}
+.bigcart{
+    display: flex;
+    justify-content: space-evenly;
+}
+.cart1{
+    margin: 27px 0px 0px 0px;
+    width: 380.27px;
+    height: 369px;
+    border-radius: 20px;
+    border: 2px solid #1F242D;
+    background-color: #323946;
+}
+.cart1 img{
+    margin: 32px 0px 0px 140px;
+}
+.cart1 h2{
+    padding: 0px 0px 0px 87px;
+}
+.cart1 p{
+    padding: 20px 0px 0px 29px;
+    line-height: 24px;
+    font-weight: 400;
+}
+.cart1 button{
+    margin: 34px 0px 0px 90px;
+}
+.cart2{
+    margin: 27px 0px 0px 0px;
+    width: 380.27px;
+    height: 369px;
+    border-radius: 20px;
+    border: 2px solid #1F242D;
+    background-color: #323946;
+}
+.cart2 img{
+    margin: 32px 0px 0px 140px;
+}
+.cart2 h2{
+    padding: 0px 0px 0px 87px;
+}
+.cart2 p{
+    padding: 20px 0px 0px 29px;
+    line-height: 24px;
+    font-weight: 400;
+}
+.cart2 button{
+    margin: 34px 0px 0px 90px;
+}
+.cart{
+    margin: 27px 0px 0px 0px;
+    max-width: 380.27px;
+    height: 369px;
+    border-radius: 20px;
+    border: 2px solid #1F242D;
+    background-color: #323946;
+}
+.cart img{
+    margin: 32px 0px 0px 140px;
+}
+.cart h2{
+    padding: 0px 0px 0px 65px;
+}
+.cart p{
+    padding: 20px 0px 0px 29px;
+    line-height: 24px;
+    font-weight: 400;
+}
+.cart button{
+    margin: 34px 0px 0px 90px;
+}
+.section1{
+    max-width: 1550px;
+    height: 900px;
+    background-color: #323946;
+    margin: 0 auto;
+}
+.h222{
+    display: flex;
+    justify-content: center;
+    padding: 100px 0px 43px 0px;
+    font-size: 45px;
+}
+.bigimg{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px 0px 0px 0px;
+}
+.bigimg img{
+    width: 376.94px;
+    height: 251.67px;
+    box-shadow: 0px 0px 10px #1F242D;
+    border-radius: 20px;
+}
+
+.section3{
+    max-width: 1440px;
+    height: 867px;
+    margin: 0 auto;
+}
+.h2222{
+    display: flex;
+    justify-content: center;
+    padding: 102px 0px 33px 0px;
+    font-size: 40px;
+}
+.input{
+    padding: 0px 14px 14px 390px;
+}
+.input input{
+    background-color: #323946;
+    width: 343px;
+    height: 55px;
+    border-radius: 8px;
+    border: 1px solid #323946;
+}
+.input input::placeholder{
+    font-size: 16px;
+    padding: 0px 0px 0px 15px;
+}
+.input1{
+    padding: 0px 14px 0px 390px;
+}
+.input1 input{
+    background-color: #323946;
+    width: 343px;
+    height: 55px;
+    border-radius: 8px;
+    border: 1px solid #323946;
+}
+.input1 input::placeholder{
+    font-size: 16px;
+    padding: 0px 0px 0px 15px;
+}
+.biginput{
+    padding: 14px 0px 0px 385px;
+}
+.biginput input{
+    width: 700px;
+    height: 280px;
+    border-radius: 8px;
+    background-color: #323946;
+    border: 1px solid #323946;
+}
+.button{
+    padding: 32px 0px 0px 660px;
+}
+.footer{
+    max-width: 1440px;
+    height: 80px;
+    background-color: #323946;
+    margin: 0 auto;
+}
+.final{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 129px 0px 129px;
+    color: #FFFFFF;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 1200px) {
+    .contaeiner{
+        padding: 0 92px;
+    }
+}
+
+@media (max-width:1024px) {
+    
+    .logo img{
+        width: 358.39px;
+        height: 434.95px;
+    }
+    .h1 h3{
+        font-size: 28px;
+    }
+    .h1 h1{
+        font-size: 49px;
+    }
+    .h1 h2{
+        font-size: 28px;
+    }
+    .h1 p{
+        font-size: 14px;
+    }
+    .h1 button{
+        width: 155.36px;
+        height: 38.59px;
+        border-radius: 35.2px;
+    }
+    .h22 h2{
+        font-size: 39px;
+    }
+    .cart{
+        width: 268.17px;
+        height: 337.95px;
+    }
+    .cart img{
+        width: 51.37px;
+        height: 47.28px;
+        margin: 32px 0px 0px 110px;
+    }
+    .cart h2{
+        font-size: 22px;
+        margin: 0px 0px 0px -40px;
+    }
+    .cart p{
+        font-size: 11px;
+    }
+    .cart button{
+        width: 133px;
+        height: 38px;
+        margin: 25px 0px 0px 65px;
+    }
+    .cart1{
+        width: 268.17px;
+        height: 337.95px;
+    }
+    .cart1 img{
+        width: 51.37px;
+        height: 47.28px;
+        margin: 32px 0px 0px 110px;
+    }
+    .cart1 h2{
+        font-size: 22px;
+        margin: 0px 0px 0px -40px;
+    }
+    .cart1 p{
+        font-size: 11px;
+    }
+    .cart1 button{
+        width: 133px;
+        height: 38px;
+        margin: 25px 0px 0px 65px;
+    }
+    .cart2{
+        width: 268.17px;
+        height: 337.95px;
+    }
+    .cart2 img{
+        width: 51.37px;
+        height: 47.28px;
+        margin: 32px 0px 0px 110px;
+    }
+    .cart2 h2{
+        font-size: 22px;
+        margin: 0px 0px 0px -40px;
+    }
+    .cart2 p{
+        font-size: 11px;
+    }
+    .cart2 button{
+        width: 133px;
+        height: 38px;
+        margin: 25px 0px 0px 65px;
+    }
+    .h222 h2{
+        font-size: 39px;
+    }
+    .bigimg img{
+        width: 265.22px;
+        height: 177.08px;
+    }
+    .h2222 h2{
+        font-size: 39px;
+        margin: 0px 0px 0px 50px;
+    }
+    .input{
+        display: flex;
+    }
+    .input1{
+        display: flex;
+    }
+    .input input{
+        width: 330px;
+        height: 47.38px;
+        margin: 0px 160px 0px -150px;
+    }
+    .input1 input{
+        width: 330px;
+        height: 47.38px;
+        margin: 0px 160px 0px -150px;
+    }
+    .biginput input{
+        width: 616px;
+        height: 236.38px;
+        margin: 0px 0px 0px -160px;
+    }
+    .button button{
+        margin: 0px 0px 0px -210px;
+    }
+}
+
+@media (max-width: 840px) {
+    .contaeiner{
+        padding: 0 12px;
+    }
+    .contaeiner{
+        padding: 0 18px;
+    }
+    .nav ul{
+        display: none;
+    }
+    .nav-icon{
+        display: initial;
+    }
+    .h1{
+        /* margin: 0px 0px 0px -260px; */
+    }
+    .h1 h3{
+        font-size: 22px;
+    }
+    .h1 h1{
+        font-size: 44px;
+    }
+    .h1 h2{
+        font-size: 22px;
+    }
+    .h1 p{
+        font-size: 14px;
+    }
+    .big{
+        flex-direction: column;
+    }
+    .logo img{
+        width: 537.59px;
+        height: 652.44px;
+    }
+    .h22 h2{
+        font-size: 39px;
+    }
+    .section2{
+        flex-wrap: wrap;
+    }
+    .cart{
+        width: 352.17px;
+        height: 316.95px;
+    }
+    .cart img{
+        margin: 26px 0px 0px 145px;
+    }
+    .cart h2{
+        margin: 0px 0px 0px 0px;
+        font-size: 22px;
+    }
+    .cart p{
+        margin: 0px 0px 0px 35px;
+    }
+    .cart button{
+        margin: 28px 0px 0px 110px;
+    }
+    .cart1{
+        width: 352.17px;
+        height: 316.95px;
+    }
+    .cart1 img{
+        margin: 26px 0px 0px 145px;
+    }
+    .cart1 h2{
+        margin: 0px 0px 0px 0px;
+        font-size: 22px;
+    }
+    .cart1 p{
+        margin: 0px 0px 0px 35px;
+    }
+    .cart1 button{
+        margin: 28px 0px 0px 110px;
+    }
+    .cart2{
+        width: 741.94px;
+        height: 274.95px;
+        border-radius: 17.6px;
+    }
+    .cart2 img{
+        margin: 0px 0px 0px 340px;
+    }
+    .cart2 h2{
+        margin: 0px 0px 0px 200px;
+        font-size: 22px;
+    }
+    .cart2 p{
+        margin: 0px 0px 0px 260px;
+    }
+    .cart2 button{
+        margin: 18px 0px 0px 293px;
+    }
+    .bigcart{
+        flex-wrap: wrap;
+    }
+    .h222{
+        font-size: 39px;
+        margin: 0px 0px 0px 0px;
+    }
+    .bigimg{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .bigimg img{
+        width: 349.97px;
+        height: 233.67px;
+    }
+    .section1{
+        margin: 0 auto;
+        width: 825px;
+        height: 1200px;
+    }
+    .section2{
+        margin: 0 auto;
+    }
+    .section3{
+        margin: 0 auto;
+    }
+    .input input{
+        width: 301.83px;
+        height: 47.38px;
+    }
+    .input1 input{
+        width: 300px;
+        height: 47.38px;
+    }
+    .biginput input{
+        width: 616px;
+        height: 236.38px;
+        margin: 0px 0px 0px -240px;
+    }
+    .button button{
+        margin: 0px 0px 0px -300px;
+    }
+}
+
+@media (max-width: 520px) {
+    .h1 h3{
+        font-size: 20px;
+    }
+    .h1 h1{
+        font-size: 40px;
+    }
+    .h1 h2{
+        font-size: 20px;
+    }
+    .h1 p{
+        font-size: 12px;
+    }
+    .h1 button{
+        width: 141.23px;
+        height: 34px;
+    }
+    .logo img{
+        width: 273px;
+        height: 331.31px;
+        margin: 0 auto;
+    }
+    .h22 h2{
+        font-size: 36px;
+    }
+    .cart{
+        width: 366.63px;
+        height: 300px;
+    }
+    .cart button{
+        width: 122px;
+        height: 33px;
+        margin: 20px 0px 0px 110px;
+    }
+    .cart1{
+        width: 366.63px;
+        height: 300px;
+    }
+    .cart1 button{
+        width: 122px;
+        height: 33px;
+        margin: 20px 0px 0px 110px;
+    }
+    .cart2{
+        width: 366.63px;
+        height: 300px;
+    }
+    .cart2 img{
+        margin: 26px 0px 0px 145px;
+    }
+    .cart2 h2{
+        margin: 0px 0px 0px 0px;
+        font-size: 22px;
+    }
+    .cart2 p{
+        margin: 0px 0px 0px 35px;
+    }
+    .cart2 button{
+        width: 122px;
+        height: 33px;
+        margin: 20px 0px 0px 110px;
+    }
+    .section1{
+        width: 520px;
+        height: 1800px;
+        margin: 320px 0px 0px 0px;
+    }
+    .bigimg{
+        flex-direction: column;
+    }
+    .bigimg img{
+        margin: 20px 0px 0px 0px;
+    }
+    .input{
+        flex-direction: column;
+    }
+    .input1{
+        flex-direction: column;
+    }
+    .input input{
+        width: 366.63px;
+        height: 42px;
+        margin: 11px 0px 0px -245px;
+    }
+    .input1 input{
+        width: 366.63px;
+        height: 42px;
+        margin: 11px 0px 0px -245px;
+    }
+    .biginput input{
+        width: 366.63px;
+        height: 204px;
+    }
+    .button button{
+        margin: 0px 0px 0px -420px;
+    }
+    .h2222{
+        margin: 0px 0px 0px 70px;
+    }
+    .footer{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 520px;
+        height: 63px;
+        font-size: 14px;
+        margin: 0 auto;
+    }
+}
